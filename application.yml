@@ -1,6 +1,7 @@
 logging:
   level:
     root: debug
+    file: /home/centos/logs/${spring.application.name}/${spring.application.name}.log
 
 server:
   servlet-path: /spring
