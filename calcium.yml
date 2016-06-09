@@ -5,3 +5,17 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/calcium
+
+---
+spring:
+  profiles: uat
+  data:
+    mongodb:
+      uri: mongodb://UAT-DB:27017/calcium
+
+---
+spring:
+  profiles: prod
+  data:
+    mongodb:
+      uri: mongodb://PROD-DB:27017/calcium
