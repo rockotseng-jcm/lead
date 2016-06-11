@@ -1,6 +1,6 @@
 logging:
   level:
-    root: info
+    root: debug
   file: ${user.home}/logs/${spring.application.name}/${spring.application.name}.log
 
 eureka:
