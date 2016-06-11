@@ -6,6 +6,7 @@ logging:
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
+    preferIpAddress: true
   client:
     registerWithEureka: true
     serviceUrl:
